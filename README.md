@@ -1,7 +1,7 @@
 
 ## How to Set up the project
 
-Note: Astro requires [Node.js](https://nodejs.org/) to run.
+Note: Astro requires [Node.js](https://nodejs.org/) to run, restart after installation if using windows.
 
 ```bash
 git clone https://github.com/SorinXV/Concorso-Agenda-2030.git
@@ -12,7 +12,7 @@ npm start
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Please see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT license with additional terms below.
 
 #### **Notwithstanding the terms of the MIT License:**
 
