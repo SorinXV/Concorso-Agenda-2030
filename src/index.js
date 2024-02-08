@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './global.css'
+import Navbar from './assets/components/Navbar';
+import Footer from './assets/components/Footer';
+import Home from './assets/pages/Home';
+import Obiettivi from './assets/pages/Obiettivi';
+import Quiz from './assets/pages/Quiz';
+
 // Index.js renders all the components and here we'll implement the routing of the website with react router
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
