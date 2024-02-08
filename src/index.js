@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import App from './App';
 import './global.css';
 import Navbar from './assets/components/Navbar';
@@ -19,6 +19,8 @@ ReactDOM.createRoot(rootElement).render(
         <Route path="/" element={<Home />} />
         <Route path="/obiettivi" element={<Obiettivi />} />
         <Route path="/quiz" element={<Quiz />} />
+        {/* User gets redirected to home when goes on wrong url*/}
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </BrowserRouter>
