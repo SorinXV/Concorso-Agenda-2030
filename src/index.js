@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
@@ -7,11 +8,11 @@ import Footer from './assets/components/Footer';
 import Home from './assets/pages/Home';
 import Obiettivi from './assets/pages/Obiettivi';
 import Quiz from './assets/pages/Quiz';
+import obiettiviData from './assets/data/obiettivi.json';
 
 const rootElement = document.getElementById('root');
 
 ReactDOM.createRoot(rootElement).render(
-  // Component that helps you catch common mistakes and potential issues in your application during the development phase. 
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
@@ -19,10 +20,15 @@ ReactDOM.createRoot(rootElement).render(
         <Route path="/" element={<Home />} />
         <Route path="/obiettivi" element={<Obiettivi />} />
         <Route path="/quiz" element={<Quiz />} />
-        {/* User gets redirected to home when goes on wrong url, maybe add a popUp*/}
+        {Object.keys(obiettiviData).map((key) => {
+          const routePath = `/obiettivi/${key}`;
+          {/*I apologize to future me who's gonna look into this*/}
+          return <Route key={key} path={routePath} element={<Obiettivi obiettivoKey={key} />} />;
+        })}
+        {/* If wrong path redirect to home, !important: add popUp after redirection when url failed*/}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
