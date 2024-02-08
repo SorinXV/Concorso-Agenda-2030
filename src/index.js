@@ -21,12 +21,12 @@ ReactDOM.createRoot(rootElement).render(
         <Route path="/obiettivi" element={<Obiettivi />} />
         <Route path="/quiz" element={<Quiz />} />
         {Object.keys(obiettiviData).map((key) => {
-          const routePath = `/obiettivi/${key}`;
-          {/*I apologize to future me who's gonna look into this*/}
+          const routePath = `${key}`;
+          {/*I apologize to future me who's gonna look into this -Sorin*/}
           return <Route key={key} path={routePath} element={<Obiettivi obiettivoKey={key} />} />;
         })}
-        {/* If wrong path redirect to home, !important: add popUp after redirection when url failed*/}
-        <Route path="*" element={<Navigate to="/" />} />
+        {/* If wrong path redirect to home, !important: add allert (with return statement, not another page if possible) after redirection when url failed*/}
+        <Route path="*" element={<Navigate to="/" /> } />
       </Routes>
       <Footer />
     </BrowserRouter>
