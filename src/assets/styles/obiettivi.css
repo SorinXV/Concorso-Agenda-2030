@@ -1,19 +1,22 @@
 .title{
     font-size: 2.4em;
-    font-weight: 800;
+    font-weight: 900;
     
 }
 .subtitle{
-    font-size: 1.6em;
+    font-size: 1.8em;
+    font-weight: 700;
     padding-block: 8px;
     text-align: 15px;
 }
 .paragraph{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
+    font-weight:normal;
 }
 .list li{
+    font-size: 1.2rem;
     margin-block: 5px;
     list-style-type: disc;
 }
@@ -32,17 +35,10 @@
     max-width: 100%;
     height: auto;
 }
+
 @media screen and (min-width: 900px){
     .adjust-goal-container{
         width: 80%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media screen and (min-width: 1500px){
-    .adjust-goal-container{
-        width: 60%;
         margin: auto;
         display: flex;
         flex-direction: column;
