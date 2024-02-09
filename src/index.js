@@ -18,7 +18,6 @@ ReactDOM.createRoot(rootElement).render(
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/obiettivi" element={<Obiettivi />} />
         <Route path="/quiz" element={<Quiz />} />
         {Object.keys(obiettiviData).map((key) => {
           const routePath = `${key}`;
