@@ -22,10 +22,10 @@ const ObiettiviComponent = ({ obiettivoKey }) => {
     );
   return (
     <>
-    <header className='header' style={{ backgroundColor: obiettivo.color }}>
+    <header style={{ backgroundColor: obiettivo.color, /*Temporary solution, it doesnt work properly, look into it later*/ marginTop:"62px"}}>
       <h1 className='title container specific-goal-title'>{obiettivo.title}</h1>
     </header>
-    <div className='container ' id='json-goal-content'>
+    <div className='container' id='json-goal-content'>
       <h2 className='subtitle adjust-goal-container'>{obiettivo.subtitle1}</h2>
       <p className='paragraph adjust-goal-container'>{obiettivo.paragraph1}</p>
       <a className='list adjust-goal-container'>{renderList(obiettivo.list1)}</a>
