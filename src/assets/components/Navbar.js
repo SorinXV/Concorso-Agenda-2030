@@ -1,15 +1,15 @@
 import '../styles/header.css';
 export default function Navbar(){
   return (
-    <div className='header'>
-    <a href='/' classname='logo'>Agenda 2030</a>
-    <input type='checkbox' class='menuBtn' id='menuBtn' />
-    <label for='menuBtn' class='menuIcon'>
-      <span class='navIcon'></span>
+    <div className='header '>
+    <a href='/' className='logo'>Agenda 2030</a>
+    <input type='checkbox' className='menuBtn' id='menuBtn' />
+    <label for='menuBtn' className='menuIcon'>
+      <span className='navIcon'></span>
     </label>
-    <ul class='menu'>
+    <ul className='menu'>
       <li><a href='/'>Home</a></li>
-      <li><a href='#'>Obiettivi</a></li>
+      <li><a href='/obiettivo1'>Obiettivi</a></li>
       <li><a href='/quiz'>Quiz</a></li>
     </ul>
     </div>
