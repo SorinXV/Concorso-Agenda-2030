@@ -1,3 +1,4 @@
+
 /*Note: Only add css that's being used in every page and component*/
 *{
     margin: 0px;
@@ -38,4 +39,5 @@ img{
     .container {
       width: 1170px;
     }
+
   }

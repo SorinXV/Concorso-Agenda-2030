@@ -1,4 +1,5 @@
 
+
 .container Obiettivo{
     position: static;
 }
@@ -46,4 +47,5 @@
         display: flex;
         flex-direction: column;
     }
+
 }

@@ -1,3 +1,4 @@
+
 // Obiettivi.js
 import React from 'react';
 import '../styles/obiettivi.css'
@@ -40,5 +41,3 @@ const ObiettiviComponent = ({ obiettivoKey }) => {
 };
 
 export default ObiettiviComponent;
-
-
