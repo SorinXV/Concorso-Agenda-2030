@@ -1,7 +1,11 @@
+
+
+.container Obiettivo{
+    position: static;
+}
 .title{
     font-size: 2.4em;
     font-weight: 900;
-    
 }
 .subtitle{
     font-size: 1.8em;
@@ -38,9 +42,10 @@
 
 @media screen and (min-width: 900px){
     .adjust-goal-container{
-        width: 80%;
+        width: 90%;
         margin: auto;
         display: flex;
         flex-direction: column;
     }
+
 }

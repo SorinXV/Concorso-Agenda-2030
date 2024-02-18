@@ -1,3 +1,4 @@
+
 /*Note: Only add css that's being used in every page and component*/
 *{
     margin: 0px;
@@ -12,7 +13,6 @@
 img{
   -ms-user-drag: none;
   -webkit-user-drag: none;
-  
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -39,4 +39,5 @@ img{
     .container {
       width: 1170px;
     }
+
   }

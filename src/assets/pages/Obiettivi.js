@@ -1,3 +1,4 @@
+
 // Obiettivi.js
 import React from 'react';
 import '../styles/obiettivi.css'
@@ -21,8 +22,8 @@ const ObiettiviComponent = ({ obiettivoKey }) => {
     </ul>
     );
   return (
-    <>
-    <header style={{ backgroundColor: obiettivo.color, /*Temporary solution, it doesnt work properly, look into it later*/ marginTop:"62px"}}>
+    <div className='containerObiettivo'>
+    <header style={{ backgroundColor: obiettivo.color,}}>
       <h1 className='title container specific-goal-title'>{obiettivo.title}</h1>
     </header>
     <div className='container' id='json-goal-content'>
@@ -35,10 +36,8 @@ const ObiettiviComponent = ({ obiettivoKey }) => {
       <a className='list adjust-goal-container'>{renderList(obiettivo.list2)}</a>
       {/* Render other properties as needed */}
     </div>
-    </>
+    </div>
 );
 };
 
 export default ObiettiviComponent;
-
-
