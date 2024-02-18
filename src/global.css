@@ -8,6 +8,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
+  max-width: 100%;
       overflow-x:hidden ;
     }
 *::selection{
