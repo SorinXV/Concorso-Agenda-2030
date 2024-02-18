@@ -44,6 +44,9 @@ export default function Navbar(){
             .menu {
               ${isChecked ? `left: 0;` : `left:150%;`}
             }
+            .menu {
+              ${isChecked ? `` : `display:none;`}
+            }
       `}</style>
       </div>
   </div>
