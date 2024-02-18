@@ -7,6 +7,9 @@
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+      overflow-x:hidden ;
+    }
 *::selection{
   background-color: #66C7F4;
 }
