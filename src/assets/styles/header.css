@@ -146,8 +146,8 @@ body{
   width: 0;
 }
 
-@media (min-width: 48rem){
-  .menu ul li a:before{
+@media (min-width: 48rem) {
+  .menu ul li a:hover:before{
     content: attr(data-text);
   }
 }
