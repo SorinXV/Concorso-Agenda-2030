@@ -42,11 +42,9 @@ export default function Navbar(){
               ${isChecked ? `transform: rotate(45deg); bottom: 0;`: `transform: rotate(0); bottom: 5px;`}
             }
             .menu {
-              ${isChecked ? `left: 0;` : `left:150%;`}
+              ${isChecked ? `right: 0;` : `right:150%;`}
             }
-            .menu {
-              ${isChecked ? `` : `display:none;`}
-            }
+            
       `}</style>
       </div>
   </div>
