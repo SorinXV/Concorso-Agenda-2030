@@ -1,5 +1,5 @@
 
-.container{
+.containerHome{
     position: static;
     background-color: transparent;
     z-index: 0;
@@ -60,8 +60,4 @@
     border-radius: 30vw 0 0 30vw;
     right: 0;
     top: 2600px;
-}
-body{
-    background-color: beige;
-
 }
