@@ -1,11 +1,11 @@
-
-/*Note: Only add css that's being used in every page and component*/
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 body{
   max-width: 100%;
