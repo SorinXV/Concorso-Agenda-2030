@@ -22,12 +22,12 @@ const ObiettiviComponent = ({ obiettivoKey }) => {
     </ul>
     );
   return (
-    <div className='containerObiettivo'>
+    <div className='containerObiettivo ' >
     <header style={{ backgroundColor: obiettivo.color,}}>
-      <h1 className='title container specific-goal-title'>{obiettivo.title}</h1>
+      <h1 className='title container specific-goal-title'   >{obiettivo.title} </h1>
     </header>
     <div className='container' id='json-goal-content'>
-      <h2 className='subtitle adjust-goal-container'>{obiettivo.subtitle1}</h2>
+      <h2 className='subtitle adjust-goal-container' style={{marginTop:"50px"}}>{obiettivo.subtitle1}</h2>
       <p className='paragraph adjust-goal-container'>{obiettivo.paragraph1}</p>
       <a className='list adjust-goal-container'>{renderList(obiettivo.list1)}</a>
       <img className='goal-image adjust-goal-container' src={obiettivo.image1}/>
