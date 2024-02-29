@@ -78,17 +78,13 @@
   },
   "obiettivo8": {
     "id": 8,
-    "title": "Parità di genere",
+    "title": "Lavoro dignitoso e crescita economica",
     "color": "#ED402F",
-    "subtitle1": "Raggiungere l’uguaglianza di genere ed emancipare tutte le donne e le ragazze",
-    "paragraph1": "Eradicare la povertà estrema entro il 2030. Nonostante i progressi significativi, una persona su cinque nelle regioni in via di sviluppo vive ancora con meno di $1.25 al giorno. Affrontare le cause profonde della povertà, inclusa la mancanza di accesso a risorse, mezzi di sussistenza sostenibili, istruzione e partecipazione sociale.",
-    "list1": "Eradicare la povertà estrema / Ridurre della metà la proporzione di uomini, donne e bambini che vivono in povertà / Garantire l'uguaglianza nell'accesso a risorse e servizi di base",
-    "image1": "https://asvis.it/plugins/slir/w960-/public/asvis2/images/Notizie_2023/onu.jpg",
+    "paragraph1": "I buoni risultati conseguiti nel biennio 2021-2022 in termini di crescita della quota di investimenti sul Pil (dal 18% del 2020 al 21,8% del 2022), aumento dell’occupazione(al 60,8% nel 2022, due punti percentuali in più rispetto al 2008) e riduzione della disoccupazione (il cui tasso è sceso al 7,8%, dal 12,9% del 2014) non portano comunque il mercato del lavoro italiano al livello degli altri grandi Paesi europei.",
+    "image1": "https://asvis.it/plugins/slir/w1140-c300x300/public/asvis2/images/Rapporto_ASviS/Rapporto_ASViS_2023/Goal8_2__2_.png",
     "subtitle2": "Promuovere lo sviluppo sostenibile",
-    "paragraph2": "Raggiungere una crescita economica sostenuta e inclusiva. Favorire la resilienza alle sfide ambientali, economiche e sociali. Promuovere l'inclusione sociale, eradicare la discriminazione e assicurare pari opportunità per tutti.",
-    "list2": "Promuovere la crescita economica / Costruire resilienza ai cambiamenti climatici / Eliminare la discriminazione e garantire pari opportunità",
-    "image2": "path/to/image4.jpg",
-    "video": "https://www.example.com/video5.mp4"
+    "paragraph2": "Se infatti l’occupazione totale ha mostrato una dinamica positiva, soprattutto grazie all’aumento dei lavoratori con 50 anni e più, la presenza di una crescita economica mediamente molto contenuta ha penalizzato i giovani, per i quali il tasso di disoccupazione, pur in diminuzione rispetto ai livelli del 2014-2015, resta tra i più alti nell’Ue. Nel 2022 i Neet (giovani di 15-29 anni che non studiano e non lavorano), nonostante la riduzione nell’ultimo biennio, sono 1,67 milioni, ovvero quasi uno su cinque (19%). Tuttavia, il raggiungimento entro il 2030 dei Target 8.6 (riduzione dei Neet al di sotto del 9%) e 8.b (predisposizione di un “Patto per l’occupazione giovanile”) è ancora possibile, mentre risulta molto difficile, se non impossibile, raggiungere il Target 8.5 (78% del tasso di occupazione). Alle criticità segnalate si aggiungono, poi, quelle che riguardano l’occupazione femminile (con un divario sul tasso di partecipazione al mercato del lavoro rispetto agli uomini di 18,1 punti percentuali nel 2023, contro una media Ue di 9,8 nel 2022), la precarietà e i fortissimi divari territoriali tra Nord e Sud. Nel corso degli anni successivi all’adozione dell’Agenda 2030 sono stati numerosi i provvedimenti adottati per superare le difficoltà, sia congiunturali che strutturali, del mercato del lavoro italiano. Con risultati altalenanti.",
+    "image2": "https://asvis.it/plugins/slir/w1140-c300x300/public/asvis2/images/Rapporto_ASviS/Rapporto_ASViS_2023/Goal8_1.png"
   },
   "obiettivo9": {
     "id": 9,
