@@ -70,15 +70,11 @@
    "id": 7,
     "title": "Energia pulita e acessibile",
     "color": "#FBC315",
-    "subtitle1": "Assicurare a tutti l’accesso a sistemi di energia economici, affidabili, sostenibili e moderni",
-    "paragraph1": "Eradicare la povertà estrema entro il 2030. Nonostante i progressi significativi, una persona su cinque nelle regioni in via di sviluppo vive ancora con meno di $1.25 al giorno. Affrontare le cause profonde della povertà, inclusa la mancanza di accesso a risorse, mezzi di sussistenza sostenibili, istruzione e partecipazione sociale.",
+    "subtitle1": "Assicurare a tutti l’accesso ad energia pulita",
+    "paragraph1": "L’accesso all’energia è un presupposto imprescindibile per la realizzazione di molti obiettivi di sviluppo sostenibile che esulano dal settore energetico. Oggi, più 1,5 miliardi di persone nel mondo non hanno accesso all’elettricità e 2,5 miliardi di persone dipendono dalla biomassa tradizionale come fonte di energia. L’obiettivo 7 prevede quindi l’accesso di tutti a servizi energetici affidabili, moderni e ambientalmente sostenibili. Per raggiungere questi obiettivi è fondamentale aumentare la percentuale di energia pulita prodotta e distribuita.",
     "list1": "Eradicare la povertà estrema / Ridurre della metà la proporzione di uomini, donne e bambini che vivono in povertà / Garantire l'uguaglianza nell'accesso a risorse e servizi di base",
-    "image1": "https://asvis.it/plugins/slir/w960-/public/asvis2/images/Notizie_2023/onu.jpg",
-    "subtitle2": "Promuovere lo sviluppo sostenibile",
-    "paragraph2": "Raggiungere una crescita economica sostenuta e inclusiva. Favorire la resilienza alle sfide ambientali, economiche e sociali. Promuovere l'inclusione sociale, eradicare la discriminazione e assicurare pari opportunità per tutti.",
-    "list2": "Promuovere la crescita economica / Costruire resilienza ai cambiamenti climatici / Eliminare la discriminazione e garantire pari opportunità",
-    "image2": "path/to/image4.jpg",
-    "video": "https://www.example.com/video5.mp4"
+    "subtitle2": "L’obiettivo 7 dell’agenda 2030 dovrà quindi:",
+    "list2": "Garantire entro il 2030 accesso a servizi energetici che siano convenienti, affidabili e moderni. / Aumentare considerevolmente entro il 2030 la quota di energie rinnovabili nel consumo totale di energia. / Raddoppiare entro il 2030 il tasso globale di miglioramento dell’efficienza energetica / Accrescere entro il 2030 la cooperazione internazionale per facilitare l’accesso alla ricerca e alle tecnologie legate all’energia pulita - comprese le risorse rinnovabili. / Implementare entro il 2030 le infrastrutture e migliorare le tecnologie per fornire servizi energetici moderni e sostenibili, specialmente nei paesi meno sviluppati."
   },
   "obiettivo8": {
     "id": 8,
