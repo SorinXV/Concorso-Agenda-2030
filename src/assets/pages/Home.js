@@ -39,7 +39,7 @@ export default function Home() {
     <div className='containerHome' style={{overflowX:"hidden"}}>
       <div className='into-home container'>
         <h1 className='title' style={{ marginTop: "50px", marginBottom: "15px" }}>Agenda 2030</h1>
-        <p className='paragraph'>L'Agenda 2030 è un piano globale delle Nazioni Unite che mira a raggiungere 17 Obiettivi di Sviluppo Sostenibile entro il 2030. Questi obiettivi coprono temi come la povertà, la salute, l'educazione, l'uguaglianza di genere, l'accesso all'acqua, l'energia sostenibile e la lotta contro il cambiamento climatico, con l'obiettivo di creare un mondo più equo e sostenibile.</p>
+        <p className='paragraph'>L'Agenda 2030 è un piano globale delle Nazioni Unite che mira a raggiungere 17 Obbiettivi di Sviluppo Sostenibile entro il 2030. Questi obiettivi coprono temi come la povertà, la salute, l'educazione, l'uguaglianza di genere, l'accesso all'acqua, l'energia sostenibile e la lotta contro il cambiamento climatico, con l'obiettivo di creare un mondo più equo e sostenibile.</p>
         <h1 id='obiettivi' className='title' style={{ marginTop: "30px", paddingBlock: "20px" }}>Obbiettivi:</h1>
       </div>
       <div className='grid'>
