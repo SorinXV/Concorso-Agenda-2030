@@ -17,7 +17,6 @@ npm start
  
 - [BertoMVII](https://github.com/BertoMVII)
 
-- [Filcent](https://github.com/Filcent)
 
 ## License
 
