@@ -25,7 +25,7 @@ export default function Footer() {
               <h6>Esplora</h6>
               <ul className="footer-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="/#obiettivi">Obiettivi</a></li>
+                <li><a href="/#obbiettivi">obbiettivi</a></li>
                 <li><a href="https://www.iiskennedy.edu.it/">Sito della scuola</a></li>
                
               </ul>

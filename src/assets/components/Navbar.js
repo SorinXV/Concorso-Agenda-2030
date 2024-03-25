@@ -24,7 +24,7 @@ export default function Navbar(){
           <div className='listMenu'>
             <ul>
               <li><a href='/' data-text="Home">Home</a></li>
-              <li><a href='/' data-text="Obiettivi">Obiettivi</a></li>
+              <li><a href='/' data-text="obbiettivi">obbiettivi</a></li>
               <li><a href='/quiz' data-text="Quiz">Quiz</a></li>
             </ul>
           </div>

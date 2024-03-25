@@ -1,11 +1,11 @@
-// Obiettivi.js
+// obbiettivi.js
 import React from 'react';
-import '../styles/obiettivi.css'
-import obiettiviData from '../../assets/data/obiettivi.json';
+import '../styles/obbiettivi.css'
+import obbiettiviData from '../../assets/data/obbiettivi.json';
 
-const ObiettiviComponent = ({ obiettivoKey }) => {
+const obbiettiviComponent = ({ obiettivoKey }) => {
  
-  const obiettivo = obiettiviData[obiettivoKey];
+  const obiettivo = obbiettiviData[obiettivoKey];
 
   if (!obiettivo) {
     return alert("L'obiettivo non è stato trovato. Se leggi questa schermata scrivi a Sorin :) ");
@@ -42,4 +42,4 @@ const ObiettiviComponent = ({ obiettivoKey }) => {
   );
 };
 
-export default ObiettiviComponent;
+export default obbiettiviComponent;
