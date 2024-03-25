@@ -11,13 +11,6 @@ npm start
 ```
 
 
-## Contributors
-
-- [SorinXV](https://github.com/SorinXV)
- 
-- [BertoMVII](https://github.com/BertoMVII)
-
-
 ## License
 
 This project is licensed under the MIT license with additional terms below.
