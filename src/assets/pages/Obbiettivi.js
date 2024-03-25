@@ -3,12 +3,12 @@ import React from 'react';
 import '../styles/obbiettivi.css'
 import obbiettiviData from '../../assets/data/obbiettivi.json';
 
-const obbiettiviComponent = ({ obiettivoKey }) => {
+const obbiettiviComponent = ({ obbiettivoKey }) => {
  
-  const obiettivo = obbiettiviData[obiettivoKey];
+  const obbiettivo = obbiettiviData[obbiettivoKey];
 
-  if (!obiettivo) {
-    return alert("L'obiettivo non è stato trovato. Se leggi questa schermata scrivi a Sorin :) ");
+  if (!obbiettivo) {
+    return alert("L'obbiettivo non è stato trovato. Se leggi questa schermata scrivi a Sorin :) ");
   }
 
   const renderList = (list) => (
@@ -24,19 +24,19 @@ const obbiettiviComponent = ({ obiettivoKey }) => {
   );
 
   return (
-    <div className='containerObiettivo ' >
-      <header style={{ backgroundColor: obiettivo.color,}}>
-        <h1 className='title container specific-goal-title'   >{obiettivo.title} </h1>
+    <div className='containerobbiettivo ' >
+      <header style={{ backgroundColor: obbiettivo.color,}}>
+        <h1 className='title container specific-goal-title'   >{obbiettivo.title} </h1>
       </header>
       <div className='container' id='json-goal-content'>
-        <h2 className='subtitle adjust-goal-container' style={{marginTop:"50px"}}>{obiettivo.subtitle1}</h2>
-        <p className='paragraph adjust-goal-container'>{obiettivo.paragraph1}</p>
-        <a className='list adjust-goal-container'>{renderList(obiettivo.list1)}</a>
-        <img className='goal-image adjust-goal-container' src={obiettivo.image1}/>
-        <h2 className='subtitle adjust-goal-container'>{obiettivo.subtitle2}</h2>
-        <p className='paragraph adjust-goal-container'>{obiettivo.paragraph2}</p>
-        <a className='list adjust-goal-container'>{renderList(obiettivo.list2)}</a>
-        <img className='goal-image adjust-goal-container' src={obiettivo.image2}/>
+        <h2 className='subtitle adjust-goal-container' style={{marginTop:"50px"}}>{obbiettivo.subtitle1}</h2>
+        <p className='paragraph adjust-goal-container'>{obbiettivo.paragraph1}</p>
+        <a className='list adjust-goal-container'>{renderList(obbiettivo.list1)}</a>
+        <img className='goal-image adjust-goal-container' src={obbiettivo.image1}/>
+        <h2 className='subtitle adjust-goal-container'>{obbiettivo.subtitle2}</h2>
+        <p className='paragraph adjust-goal-container'>{obbiettivo.paragraph2}</p>
+        <a className='list adjust-goal-container'>{renderList(obbiettivo.list2)}</a>
+        <img className='goal-image adjust-goal-container' src={obbiettivo.image2}/>
       </div>
     </div>
   );
