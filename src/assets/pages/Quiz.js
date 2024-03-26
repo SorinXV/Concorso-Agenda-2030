@@ -74,7 +74,6 @@ export default function Quiz(){
     setLock(true);
   };
 
-  localStorage.clear();
 
 
   if (hasCompletedQuiz) {

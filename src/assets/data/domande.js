@@ -68,7 +68,7 @@ export const questions = [
       },
       {
         question: "Che cosa significa povertà estrema",
-        option1: "Non disporre d risorse primarie come acqua, cibo, vestiti e una abitazione",
+        option1: "Non disporre di risorse primarie come acqua, cibo, vestiti e una abitazione",
         option2: "Non disporre delle risorse per mantenere uno standard di vita medio",
         option3: "Abitare in Africa",
         option4: "Disporre di risorse primarie come carta igienica, spazzolino e dentifricio",
