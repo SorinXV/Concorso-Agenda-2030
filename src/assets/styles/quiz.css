@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.quizContainer{
+    font-family: 'Inter', sans-serif;
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+.quizContainer hr{
+    border: none;
+    height: 2px;
+    background-color: #707070;
+}
+.quizContainer h2{
+    font-size: 27px ;
+    font-weight: 500  ;
+}
+.quizContainer ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.quizContainer button{
+    border-color: transparent;
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background-color: #0470fe;
+    color: white;
+    font-size: 25px;
+    font-weight: 500; 
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 19px -5px rgba(23,50,255,0.74); 
+    box-shadow: 0px 0px 19px -5px rgba(23,50,255,0.74);
+}
+
+.quizContainer input {
+    border-width: 2px;
+    border-style: groove;
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500; 
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.quizContainer a {
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.quizContainer .Index{
+    margin: auto;
+    font-size: 18px;
+}
+
+.quizContainer .correct{
+    background-color: #dffff2;
+    border-color: #00d397;
+}
+
+.quizContainer .wrong{
+    background-color: #ffebeb;
+    border-color: #ff4a4a;
+}
+
