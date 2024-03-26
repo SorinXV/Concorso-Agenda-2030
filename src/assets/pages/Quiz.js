@@ -1,8 +1,10 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef} from "react";
 import '../styles/quiz.css'
 import {questions} from '../data/domande'
 import axios from "axios";
 
+
+let answ = [];
 
 export default function Quiz(){ 
   let[index, setIndex] =  useState(0);
@@ -19,10 +21,12 @@ export default function Quiz(){
   let option_array = [Option1, Option2, Option3, Option4];
 
   const hasCompletedQuiz = localStorage.getItem('quizCompleted');
-
+  
+  localStorage.clear();
 
   const checkAns = (e, ans) => { 
     if (lock === false) {
+      if(index<10){
       if(question.ans === ans){
         e.target.classList.add("correct");
         setLock(true);
@@ -33,6 +37,13 @@ export default function Quiz(){
         setLock(true);
         option_array[question.ans-1].current.classList.add("correct");
      }
+    }
+    else{
+      answ[index-10] = ans;
+      console.log(answ[index-10]);
+      e.target.classList.add("questionario");
+      setLock(true);
+    }
     }
   }
 
@@ -48,17 +59,27 @@ export default function Quiz(){
       option_array.map((option)=>{
         option.current.classList.remove("wrong");
         option.current.classList.remove("correct");
+        option.current.classList.remove("questionario");
         return null;
       });
     }
+    console.log(answ);
   }
 
   const [name, setName] = useState("");
 
   const handleSubmit = (eve) => {
 		eve.preventDefault();
+    
+    let answ1 = answ[0];
+    let answ2 = answ[1];
+    let answ3 = answ[2];
+    let answ4 = answ[3];
+    let answ5 = answ[4];
+    let answ6 = answ[5];
+    let answ7 = answ[6];
 
-    const objt = {name, score};
+    const objt = {name, score, answ1, answ2, answ3, answ4, answ5, answ6, answ7};
 		axios.post(
 				'https://sheet.best/api/sheets/0bbb75d8-08df-4dba-9a62-4c1dded45fbc',objt
 			).then((response) => {
@@ -107,7 +128,7 @@ export default function Quiz(){
       <button onClick={next}>Prossimo </button>
       <div className="Index"> {index} di {questions.length-1} domande</div></>}
       {result?<>
-      <h2>Hai ottenuto un punteggio di: {score} su {questions.length-1}</h2>
+      <h2>Hai ottenuto un punteggio di: {score} su {questions.length-8}</h2>
       <p>cliccare Home per inviare il punteggio</p>
      <button onClick={handleSubmit}>Home</button>
       </>:<></>}
