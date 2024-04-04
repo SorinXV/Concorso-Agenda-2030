@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/footer.css';
+import Quiz from '../pages/Quiz';
 
 export default function Footer() {
+
   return (
     <>
 <div className="custom-shape-divider-bottom-1708643474" style={{marginTop:"100px"}}>
@@ -18,7 +20,7 @@ export default function Footer() {
           <div className="footer-row " style={{marginTop:"20px"}}>
             <div className="footer-col">
               <h6>Informazioni</h6>
-              <p className="text-justify">Sito realizzato dalla Scuola J.F. Kennedy di Monselice. Maggiori informazioni nella <a href='https://github.com/SorinXV/concorso_agenda2030'>repository</a>.</p>
+              <p className="text-justify">Sito realizzato dalla Scuola J.F. Kennedy di Monselice.</p>
             </div>
 
             <div className="footer-col">
