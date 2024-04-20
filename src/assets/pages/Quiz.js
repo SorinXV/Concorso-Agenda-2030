@@ -128,7 +128,7 @@ export default function Quiz(){
       {result?<>
       <h2>Hai ottenuto un punteggio di: {score} su {questions.length-8}</h2>
       <p>cliccare Home per inviare il punteggio</p>
-     <button onClick={handleSubmit}>Home</button>
+     <button onClick={handleSubmit}><a href="/">Home</a></button>
       </>:<></>}
 
       <style jsx>{`
