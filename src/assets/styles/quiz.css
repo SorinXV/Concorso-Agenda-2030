@@ -6,7 +6,7 @@
     width: 60%;
     margin: auto;
     margin-top: 70px;
-    background-color: white;
+    background-color: beige;
     color: #262626;
     display: flex;
     flex-direction: column;
@@ -84,5 +84,10 @@
 .quizContainer .wrong{
     background-color: #ffebeb;
     border-color: #ff4a4a;
+}
+
+.quizContainer .questionario{
+    background-color: #ebecff;
+    border-color: #4a7aff;
 }
 
