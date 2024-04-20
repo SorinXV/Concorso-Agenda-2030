@@ -21,8 +21,6 @@ export default function Quiz(){
   let option_array = [Option1, Option2, Option3, Option4];
 
   const hasCompletedQuiz = localStorage.getItem('quizCompleted');
-  
-  localStorage.clear();
 
   const checkAns = (e, ans) => { 
     if (lock === false) {
@@ -81,7 +79,7 @@ export default function Quiz(){
 
     const objt = {name, score, answ1, answ2, answ3, answ4, answ5, answ6, answ7};
 		axios.post(
-				'https://sheet.best/api/sheets/0bbb75d8-08df-4dba-9a62-4c1dded45fbc',objt
+				'https://sheetdb.io/api/v1/vw475p87h12pz',objt
 			).then((response) => {
 				console.log(response);
         window.location.href = '/';
@@ -130,7 +128,7 @@ export default function Quiz(){
       {result?<>
       <h2>Hai ottenuto un punteggio di: {score} su {questions.length-8}</h2>
       <p>cliccare Home per inviare il punteggio</p>
-     <button onClick={handleSubmit}><a href="/">Home</a></button>
+     <button onClick={handleSubmit}>Home</button>
       </>:<></>}
 
       <style jsx>{`
